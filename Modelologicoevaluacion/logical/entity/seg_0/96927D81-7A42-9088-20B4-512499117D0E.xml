@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96927D81-7A42-9088-20B4-512499117D0E" name="curso">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:37:00 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCurso" id="0C93115B-BEF3-D1E9-69C9-591B4929BA00">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:37:17 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descrip" id="2D8C8EF5-325B-51EB-69F7-38D062A0C1E7">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:37:40 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1664872-3387-9EFB-0848-425318E15238" name="curso PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:37:38 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C93115B-BEF3-D1E9-69C9-591B4929BA00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

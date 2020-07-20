@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1B45F90-CDBF-E701-D89E-9C1548867B7E" name="estudiante">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:38:37 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>estu</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEstu" id="534ED7D7-A7E2-8160-2BBE-7C0414A8EDCD">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:38:53 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C5DADC26-D1DE-14FA-9ED4-B9654F53784A">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:39:20 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="393F05C9-64D8-6DF6-EA48-4E71444B6FF1">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:39:45 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fono" id="23DBD79A-8742-6651-9284-04E73643B634">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:40:05 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direcc" id="589C2A7F-4CCF-1D81-B81B-A0810D72A291">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:40:20 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCurso" id="BB85029E-85AE-34A5-3352-4C032C721804">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:40:42 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curso idCurso" id="0086464D-50D0-9561-F435-07B120692ED3">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 01:28:48 UTC</createdTime>
+<generatorID>004176F0-08C9-9520-994B-82187F75D030</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<referedAttribute>0C93115B-BEF3-D1E9-69C9-591B4929BA00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EF137F2-6AF7-D972-AE64-D3C40236AF69" name="estudiante PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:39:13 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>534ED7D7-A7E2-8160-2BBE-7C0414A8EDCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

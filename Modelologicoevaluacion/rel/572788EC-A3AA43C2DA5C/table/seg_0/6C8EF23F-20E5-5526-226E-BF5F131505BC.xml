@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C8EF23F-20E5-5526-226E-BF5F131505BC" name="TestEva">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>B7BDA014-9635-393C-E038-805B4C10749B</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idtest" id="21404E33-5F36-D026-6069-FEFE5ACC6193">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>67ED93CA-6131-B719-6D09-576E200C0FD9</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombretest" id="F8E1CD64-DF46-7D21-234D-53ED0A201FB6">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>280BDFA2-566F-9EC0-F873-732AE5ECEF02</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescTest" id="6F7DE404-E3F7-5F38-D010-2FC2125B3BB8">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>A6A88C4D-EA38-1C1E-5DE4-C5F663FEC415</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programaCurso" id="74F21538-3140-B000-C4EF-4551EC96E0BD">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>628F0822-E989-E4C6-8C99-D05C77050D8E</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UnidadMod" id="D7A82C21-1FE6-4DE3-8AC0-C35E590E22A5">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>E396473F-4157-2669-85EA-D89EA143D4A8</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author" id="B457E9C5-01D0-8B7B-288F-8B3811CFD7E4">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>14D6A221-CA05-670D-5DAC-8FC81B605E24</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechacrea" id="BACC0D5C-17D6-5FEF-092F-74C3E2F7C04B">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>5116C88A-6BD0-1E64-2CCD-49515A5DA0BB</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_curso" id="1664DB26-DBEB-D9D7-D8D4-C9D3B152A9EC">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>B00B067D-CF77-4192-19DA-46C54F1A664E</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso_idCurso" id="FA23AA80-5572-6F1A-E764-3D2E8D86B6EB">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>C89C4F52-2DA6-3AC8-0A3A-09D4D6106328</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05DBDF2C-5CA8-E759-40A9-4C83A215BE04" referredColumn="2034EEEC-1D6E-AF79-A657-02C2C2F3416B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB2777BF-2723-40B5-CD36-1F676009297A" name="TestEva_PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>48EA0810-F292-013F-1B0C-4FFD9CF21454</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21404E33-5F36-D026-6069-FEFE5ACC6193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56027E71-EA8D-D55B-635A-98B995FED351" name="TestEva_curso_FK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>07AE6F51-7BA1-92EF-5554-06D67AE9AA02</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA23AA80-5572-6F1A-E764-3D2E8D86B6EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E18085C1-69A2-2CEC-4263-365AA7A6804F" name="preguntas">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>BDC0ED93-F6B8-3413-701C-C3F28B5B3B32</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<abbreviation>preg</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idtest" id="472E7ED9-AC77-61D1-7719-C1A2CC248E47">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>3A21ABC2-3292-3EAB-3DA3-9F00E7F18F39</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numpre" id="12B6FCA5-9C9E-D632-3820-7A0EDC28471A">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>2417AAAD-EFA0-64A1-FA90-122B70DBD1FE</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enunciado" id="F96452A7-EF6E-26E6-E38D-7ED3530E0298">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>E7DEBD36-D950-FAEF-6826-D1E9555B06CF</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="F8835DF4-3B7C-1D21-C04C-8FE8A064ABAD">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>57AB303E-24BB-8DE0-2F60-6B72C139698F</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TestEva_idtest" id="DB4690AE-1190-E662-C0A8-FB20FD88822A">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>0083377D-BA38-9CD9-0D80-3674D32CA594</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4EE6EDD-9B19-9C00-4084-2DE7976724CE" referredColumn="21404E33-5F36-D026-6069-FEFE5ACC6193"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35089948-DB1E-9DC1-84D6-3F4017A60095" name="preguntas_PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>D91D27CC-D0D2-7421-7F2C-5AAA8CA2622D</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB4690AE-1190-E662-C0A8-FB20FD88822A"/>
+<colUsage columnID="472E7ED9-AC77-61D1-7719-C1A2CC248E47"/>
+<colUsage columnID="12B6FCA5-9C9E-D632-3820-7A0EDC28471A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07863446-F370-DAEE-0CD7-518EE79D81C5" name="preguntas_TestEva_FK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>B203EF98-169A-1671-DBA5-4A5223EACF9C</generatorID>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB4690AE-1190-E662-C0A8-FB20FD88822A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

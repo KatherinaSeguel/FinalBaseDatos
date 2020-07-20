@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TestEva curso FK" directorySegmentName="seg_0" id="07AE6F51-7BA1-92EF-5554-06D67AE9AA02">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 01:29:28 UTC</createdTime>
+<ownerDesignName>Modelologicoevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<sourcePk>C1664872-3387-9EFB-0848-425318E15238</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>cur</nameOnSource>
+<nameOnTarget>test</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96927D81-7A42-9088-20B4-512499117D0E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7BDA014-9635-393C-E038-805B4C10749B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
