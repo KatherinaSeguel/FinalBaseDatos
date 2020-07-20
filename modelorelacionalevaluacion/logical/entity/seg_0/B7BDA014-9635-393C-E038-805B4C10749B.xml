@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7BDA014-9635-393C-E038-805B4C10749B" name="TestEva">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:12:35 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idtest" id="67ED93CA-6131-B719-6D09-576E200C0FD9">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:12:49 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombretest" id="280BDFA2-566F-9EC0-F873-732AE5ECEF02">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:13:07 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DescTest" id="A6A88C4D-EA38-1C1E-5DE4-C5F663FEC415">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:13:31 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="programaCurso" id="628F0822-E989-E4C6-8C99-D05C77050D8E">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:13:51 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UnidadMod" id="E396473F-4157-2669-85EA-D89EA143D4A8">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:14:25 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author" id="14D6A221-CA05-670D-5DAC-8FC81B605E24">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:14:49 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechacrea" id="5116C88A-6BD0-1E64-2CCD-49515A5DA0BB">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:15:12 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id curso" id="B00B067D-CF77-4192-19DA-46C54F1A664E">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:15:29 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curso idCurso" id="C89C4F52-2DA6-3AC8-0A3A-09D4D6106328">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 01:29:28 UTC</createdTime>
+<generatorID>07AE6F51-7BA1-92EF-5554-06D67AE9AA02</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<referedAttribute>0C93115B-BEF3-D1E9-69C9-591B4929BA00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48EA0810-F292-013F-1B0C-4FFD9CF21454" name="TestEva PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:13:04 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67ED93CA-6131-B719-6D09-576E200C0FD9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

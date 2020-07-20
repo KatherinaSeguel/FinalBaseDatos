@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4EE6EDD-9B19-9C00-4084-2DE7976724CE" containerWithKeyObject="E18085C1-69A2-2CEC-4263-365AA7A6804F" localFKIndex="07863446-F370-DAEE-0CD7-518EE79D81C5" name="preguntas_TestEva_FK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>B203EF98-169A-1671-DBA5-4A5223EACF9C</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<referredTableLongName>TestEva</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>6C8EF23F-20E5-5526-226E-BF5F131505BC</referredTableID>
+<keyObject>FB2777BF-2723-40B5-CD36-1F676009297A</keyObject>
+<referredKeyID>FB2777BF-2723-40B5-CD36-1F676009297A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idtest</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

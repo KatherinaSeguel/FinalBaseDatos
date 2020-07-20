@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A689FF54-77C5-42C1-0562-1013AF48822E" name="alternativas">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:19:15 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>alter</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id test" id="9DFE1CAF-F8F6-2EBF-0024-270A96C9EBE9">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:20:21 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id preg" id="B838DF8B-65BC-963B-0BE5-9A8F9C57902B">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:20:00 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altern" id="6846F5DB-588F-8E9D-41A3-42F13E55FAED">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 01:21:24 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descAlter" id="E867E550-0252-B050-D894-C6BD588DBA90">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:20:37 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ValorLogico" id="D6AB5F4D-DA77-EAFA-3EB0-667CFEBC629D">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:21:01 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorporc" id="BD014116-E907-6779-8079-EAB016DE0DE5">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:21:30 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TestEva idtest" id="F5A0F247-49C7-67AF-D52E-41433B2EE97E">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 22:54:34 UTC</createdTime>
+<generatorID>F6184EFA-7DC0-D13F-9AD0-459D12C589C6</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<referedAttribute>0083377D-BA38-9CD9-0D80-3674D32CA594</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preguntas idtest" id="8455447F-CE12-E58C-B9BB-3E8902F35301">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 22:54:34 UTC</createdTime>
+<generatorID>F6184EFA-7DC0-D13F-9AD0-459D12C589C6</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<referedAttribute>3A21ABC2-3292-3EAB-3DA3-9F00E7F18F39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preguntas numpre" id="F65AF8BF-6778-471C-4FC3-305A534E5E22">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 22:54:34 UTC</createdTime>
+<generatorID>F6184EFA-7DC0-D13F-9AD0-459D12C589C6</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<referedAttribute>2417AAAD-EFA0-64A1-FA90-122B70DBD1FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68304DF4-53F5-A155-BCB4-CAFE07F8FF83" name="alternativas PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:19:56 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DFE1CAF-F8F6-2EBF-0024-270A96C9EBE9</attributeRef>
+<attributeRef>B838DF8B-65BC-963B-0BE5-9A8F9C57902B</attributeRef>
+<attributeRef>6846F5DB-588F-8E9D-41A3-42F13E55FAED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

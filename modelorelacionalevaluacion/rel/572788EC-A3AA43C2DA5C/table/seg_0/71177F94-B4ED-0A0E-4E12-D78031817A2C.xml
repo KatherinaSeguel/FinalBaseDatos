@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71177F94-B4ED-0A0E-4E12-D78031817A2C" name="respuestas">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>BFA3ADB7-8BC1-5294-0685-62FCE64BB053</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<abbreviation>resp</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idalumno" id="7159B8B5-0B65-96AF-7420-0E3E38AB8633">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>7241C8DC-A6CF-11E6-7BA7-5E40855694CF</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idtest" id="B5F8CB16-3F37-A6D3-0D01-49D8FD692FC6">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>A89932EE-1839-3168-D719-C0A36AE0AF93</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idpreg" id="9D2A3627-17F3-AF34-B8FF-3FC9D923340E">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>16BA6144-0674-2D38-B064-8209589B5FBB</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alternativa" id="28DE9825-E63A-6977-5D78-A7B394B2D169">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>BD23A1FB-F519-27DB-AE3D-15A2AF6E0BEE</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resp" id="82123951-C92D-7EE7-7456-D9A5778BCE96">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>AB1229E5-B3A8-B070-C3DB-DE0E98D83AB0</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="08DCB0F7-BDA3-0ACA-7813-B3504854D0E2">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>A55254F4-2C8F-30CB-9AB4-F967CAC48903</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estudiante_idEstu" id="0FDE5400-29BD-1511-1F7B-F4C5C5DA4D72">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>1C9B3442-A959-84EC-19F5-0A4BE0B67273</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8EB6146-CED5-3467-7F03-AC1598A77989" referredColumn="57AD9664-3358-698A-B8AD-FC138A757811"/>
+</associations>
+</Column>
+<Column name="alternativas_id_test" id="1E72029E-7AA8-82BF-697C-4B53DABADE1F">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>CBE2B9AA-7284-B5BD-700D-C8084D8F765C</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07D75D39-EE2D-BE18-0DA5-7F4FA5AD4976" referredColumn="EF49274D-7DDE-7CDA-22FD-654E7F6957D9"/>
+</associations>
+</Column>
+<Column name="alternativas_id_preg" id="0E6E100E-EDFF-46F0-3E38-59010597EA1C">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>03CCE7A2-4855-4489-40D7-E3050E421C8A</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07D75D39-EE2D-BE18-0DA5-7F4FA5AD4976" referredColumn="258AB4A1-CDE1-E887-3E26-C547E7658716"/>
+</associations>
+</Column>
+<Column name="alternativas_altern" id="63C7DC40-C8FA-0583-5983-2890EBA93516">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>A737A627-D0A7-C855-CA6E-38FB04E629F8</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07D75D39-EE2D-BE18-0DA5-7F4FA5AD4976" referredColumn="852776C7-B244-808F-C635-F41E3DCA45B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC82EC16-38C7-BA64-515F-F4718DD75A2F" name="respuestas_PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>77C29837-1E3A-D0F4-2443-376331366D8E</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FDE5400-29BD-1511-1F7B-F4C5C5DA4D72"/>
+<colUsage columnID="1E72029E-7AA8-82BF-697C-4B53DABADE1F"/>
+<colUsage columnID="0E6E100E-EDFF-46F0-3E38-59010597EA1C"/>
+<colUsage columnID="63C7DC40-C8FA-0583-5983-2890EBA93516"/>
+<colUsage columnID="B5F8CB16-3F37-A6D3-0D01-49D8FD692FC6"/>
+<colUsage columnID="9D2A3627-17F3-AF34-B8FF-3FC9D923340E"/>
+<colUsage columnID="28DE9825-E63A-6977-5D78-A7B394B2D169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3349A80-7E94-F1D5-03F0-59EDC2323470" name="respuestas_estudiante_FK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>78DBB528-72EA-F722-C04B-0EE58BFB4D3B</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FDE5400-29BD-1511-1F7B-F4C5C5DA4D72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE210DC2-E848-B88E-6B52-16519E9418B9" name="respuestas_alternativas_FK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 23:25:07 UTC</createdTime>
+<generatorID>B0321CF9-4913-3AC8-08A3-A09E31D76BA0</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E72029E-7AA8-82BF-697C-4B53DABADE1F"/>
+<colUsage columnID="0E6E100E-EDFF-46F0-3E38-59010597EA1C"/>
+<colUsage columnID="63C7DC40-C8FA-0583-5983-2890EBA93516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

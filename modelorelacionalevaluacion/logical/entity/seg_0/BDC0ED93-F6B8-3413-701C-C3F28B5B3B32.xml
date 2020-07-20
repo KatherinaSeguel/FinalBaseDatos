@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDC0ED93-F6B8-3413-701C-C3F28B5B3B32" name="preguntas">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:16:25 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>preg</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idtest" id="3A21ABC2-3292-3EAB-3DA3-9F00E7F18F39">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:17:09 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numpre" id="2417AAAD-EFA0-64A1-FA90-122B70DBD1FE">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:59:34 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enunciado" id="E7DEBD36-D950-FAEF-6826-D1E9555B06CF">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:17:43 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje" id="57AB303E-24BB-8DE0-2F60-6B72C139698F">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 00:18:40 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TestEva idtest" id="0083377D-BA38-9CD9-0D80-3674D32CA594">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 01:27:11 UTC</createdTime>
+<generatorID>B203EF98-169A-1671-DBA5-4A5223EACF9C</generatorID>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="true"/>
+</engineerTo>
+<referedAttribute>67ED93CA-6131-B719-6D09-576E200C0FD9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D91D27CC-D0D2-7421-7F2C-5AAA8CA2622D" name="preguntas PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-18 01:06:46 UTC</createdTime>
+<ownerDesignName>modelorelacionalevaluacion</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="572788EC-B5A0-926C-6E3A-A3AA43C2DA5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0083377D-BA38-9CD9-0D80-3674D32CA594</attributeRef>
+<attributeRef>3A21ABC2-3292-3EAB-3DA3-9F00E7F18F39</attributeRef>
+<attributeRef>2417AAAD-EFA0-64A1-FA90-122B70DBD1FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
